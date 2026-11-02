@@ -1,17 +1,16 @@
 import { GalleryItem, ServiceCategory } from "@/types/salon";
 
 /*
- * Business details for The Hair Studio (demo brand), Dieppe NB.
+ * Business details for The Hair Studio (demo brand), New Brunswick.
  * Photographs are the site's existing images; only the text around them has changed.
  */
 export const BRAND_DATA = {
   name: "The Hair Studio",
   wordmark: "HAIR STUDIO",
-  stylist: "Alex Morgan",
-  descriptor: "COLOUR & STYLE · DIEPPE",
-  locationLabel: "DIEPPE · NEW BRUNSWICK · CANADA",
+  stylist: "Your Stylist",
+  descriptor: "COLOUR & STYLE",
+  locationLabel: "NEW BRUNSWICK · CANADA",
   salon: "The Hair Studio",
-  city: "Dieppe",
   province: "New Brunswick",
   country: "Canada",
   instagramHandle: "@yoursalon",
@@ -51,11 +50,11 @@ export const BRAND_DATA = {
       "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1600&q=88",
   },
   about: {
-    label: "MEET YOUR STYLIST",
-    title: "Alex Morgan",
+    label: "ABOUT",
+    title: "Meet Your Stylist",
     credentials: ["Hair Stylist", "Lived-In Blondes", "Dimensional Colour"],
     copy: [
-      "Alex Morgan is a hair stylist at The Hair Studio in Dieppe, New Brunswick, specializing in lived-in blondes and dimensional colour.",
+      "Your stylist at The Hair Studio in New Brunswick specializes in lived-in blondes and dimensional colour.",
       "Every service is personalized, with attention to each client's goals, lifestyle, and maintenance preferences, for hair that feels like you.",
     ],
     // Existing site photograph (a soft dimensional blonde); not a portrait of the stylist.
@@ -65,12 +64,12 @@ export const BRAND_DATA = {
   },
   studio: {
     label: "VISIT THE SALON",
-    title: "Find Us at The Hair Studio in Dieppe",
-    copy: "The Hair Studio is located in Dieppe, New Brunswick. Book online, call the salon, or reach out on Instagram. Bridal inquiries go directly to your stylist by email or Instagram.",
+    title: "Find Us at The Hair Studio",
+    copy: "The Hair Studio is located in New Brunswick. Book online, call the salon, or reach out on Instagram. Bridal inquiries go directly to your stylist by email or Instagram.",
     image:
       "https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1200&q=85",
     features: [
-      { title: "The Hair Studio", detail: "Dieppe, New Brunswick, Canada" },
+      { title: "The Hair Studio", detail: "New Brunswick, Canada" },
       { title: "Salon phone", detail: "+1 506-555-0123", href: "tel:+15065550123" },
       { title: "Instagram", detail: "@yoursalon", href: "https://www.instagram.com/" },
       { title: "Bridal inquiries", detail: "hello@yoursalon.com", href: "mailto:hello@yoursalon.com" },
@@ -78,7 +77,7 @@ export const BRAND_DATA = {
   },
   finalFeature: {
     headline: "BEAUTIFUL HAIR THAT FEELS LIKE YOU.",
-    supporting: "Request your appointment at The Hair Studio in Dieppe, New Brunswick.",
+    supporting: "Request your appointment at The Hair Studio in New Brunswick.",
     image:
       "https://images.unsplash.com/photo-1582095133179-bfd08e2fc6b3?auto=format&fit=crop&w=1600&q=88",
   },
@@ -137,24 +136,6 @@ export const SERVICE_CATEGORIES: ServiceCategory[] = [
         duration: "3 hours 30 minutes",
         description: [
           "Maximum blonde brightness with a more consistently blonde result from root to end. Includes customized lightening, gloss/toner, and blowout.",
-        ],
-      },
-      {
-        id: "dimensional-colour",
-        name: "Dimensional Colour",
-        price: 300,
-        duration: "3 hours 30 minutes",
-        description: [
-          "For blondes, brondes, and brunettes seeking depth, contrast, and movement. May include highlights, lowlights, balayage, root melting, colour melting, and glossing. Includes custom gloss and blowout.",
-        ],
-      },
-      {
-        id: "transformation",
-        name: "Transformation",
-        price: 450,
-        duration: "4 hours 30 minutes",
-        description: [
-          "For major changes, dark-to-light transformations, previous box colour, corrective work, or colour shifts requiring more time and product. Consultation may be required. Includes the full transformation service.",
         ],
       },
     ],

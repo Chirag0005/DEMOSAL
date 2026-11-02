@@ -8,7 +8,7 @@ import "server-only";
 export const TIME_WINDOWS = ["morning", "midday", "afternoon", "flexible"] as const;
 export const HAIR_LENGTHS = ["short", "medium", "long", "extra-long"] as const;
 
-// The Hair Studio, Dieppe NB (Atlantic time).
+// The Hair Studio, New Brunswick (Atlantic time).
 const STUDIO_TIMEZONE = "America/Moncton";
 const MAX_DAYS_AHEAD = 365;
 

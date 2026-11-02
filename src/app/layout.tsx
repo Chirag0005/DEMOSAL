@@ -18,24 +18,23 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "The Hair Studio · Dieppe, New Brunswick",
+  title: "The Hair Studio · New Brunswick",
   description:
-    "Beautiful hair that feels like you. Alex Morgan specializes in lived-in blondes and dimensional colour at The Hair Studio in Dieppe, New Brunswick.",
+    "Beautiful hair that feels like you. Lived-in blondes and dimensional colour at The Hair Studio in New Brunswick.",
   keywords: [
     "HAIR STUDIO",
-    "Alex Morgan",
     "The Hair Studio",
     "The Hair Studio",
-    "hairstylist Dieppe",
-    "lived-in blonde Dieppe",
+    "hairstylist New Brunswick",
+    "lived-in blonde New Brunswick",
     "dimensional colour New Brunswick",
-    "blonde specialist Moncton Dieppe",
+    "blonde specialist New Brunswick",
   ],
-  authors: [{ name: "Alex Morgan" }],
+  authors: [{ name: "The Hair Studio" }],
   openGraph: {
     title: "The Hair Studio",
     description:
-      "Beautiful hair that feels like you. Lived-in blondes and dimensional colour in Dieppe, New Brunswick.",
+      "Beautiful hair that feels like you. Lived-in blondes and dimensional colour in New Brunswick.",
     locale: "en_CA",
     type: "website",
   },

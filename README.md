@@ -1,6 +1,6 @@
 # HAIR STUDIO · Website
 
-Website, appointment requests and private admin dashboard for The Hair Studio (demo brand), Dieppe, New Brunswick.
+Website, appointment requests and private admin dashboard for The Hair Studio (demo brand), New Brunswick.
 
 - **Booking**: "Book" buttons open the appointment request form (MongoDB + Resend + admin dashboard). The Square page, https://squareup.com/ca/en/appointments, is offered as a secondary "book online" link.
 - **Content**: brand details, the service menu and gallery captions live in `src/data/salon.ts`. The photographs are the site's original images; see `docs/PHOTOS_NEEDED.md` for swapping in the client's own work.

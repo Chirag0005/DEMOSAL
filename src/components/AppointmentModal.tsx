@@ -59,7 +59,7 @@ export default function AppointmentModal() {
         <div className="mb-8 pr-8">
           <div className="inline-flex items-center space-x-2 text-[10px] uppercase tracking-[0.25em] text-[#A98563] mb-2 font-medium">
             <Calendar className="w-3.5 h-3.5 text-[#A98563]" />
-            <span>The Hair Studio · Dieppe</span>
+            <span>The Hair Studio</span>
           </div>
           <h2
             id="booking-modal-title"

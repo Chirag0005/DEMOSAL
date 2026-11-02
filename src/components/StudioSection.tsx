@@ -96,7 +96,7 @@ export default function StudioSection() {
             <div className="mt-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
               <div className="text-xs text-[#817064] flex items-center space-x-2">
                 <MapPin className="w-4 h-4 text-[#A98563] shrink-0" />
-                <span>{BRAND_DATA.salon} · {BRAND_DATA.city}, {BRAND_DATA.province} · {BRAND_DATA.country}</span>
+                <span>{BRAND_DATA.salon} · {BRAND_DATA.province} · {BRAND_DATA.country}</span>
               </div>
 
               <button

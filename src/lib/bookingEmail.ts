@@ -153,7 +153,7 @@ function decisionContent(a: DecisionRecipient, decision: "approved" | "rejected"
       paragraphs: [
         `Hi ${firstName},`,
         `Thank you for choosing The Hair Studio. Your stylist has approved your request for ${a.service} on ${when}.`,
-        "We will be in touch to confirm the exact start time at The Hair Studio in Dieppe. If anything changes on your side, simply reply to this email.",
+        "We will be in touch to confirm the exact start time at The Hair Studio. If anything changes on your side, simply reply to this email.",
       ],
     };
   }
@@ -185,7 +185,7 @@ export async function sendCustomerDecisionEmail(
 <html><head><meta charset="utf-8"></head>
 <body style="margin:0;padding:24px;background:#F7F2EA;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:#30231F">
   <div style="max-width:560px;margin:0 auto;background:#FFFFFF;border:1px solid #EAE0D3;padding:32px">
-    <p style="margin:0 0 6px;color:#A98563;font-size:11px;letter-spacing:0.18em;text-transform:uppercase">The Hair Studio · Dieppe</p>
+    <p style="margin:0 0 6px;color:#A98563;font-size:11px;letter-spacing:0.18em;text-transform:uppercase">The Hair Studio</p>
     <h1 style="margin:0 0 20px;font-size:22px;font-weight:400">${escapeHtml(content.heading)}</h1>
     ${content.paragraphs
       .map((p) => `<p style="margin:0 0 14px;font-size:14px;line-height:1.6">${escapeHtml(p)}</p>`)

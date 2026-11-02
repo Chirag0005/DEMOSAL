@@ -26,7 +26,7 @@ export default function Footer() {
               {BRAND_DATA.descriptor}
             </span>
             <p className="text-xs sm:text-sm text-[#817064] font-light max-w-md mt-4 leading-relaxed">
-              Lived-in blondes, dimensional colour and personalized hair services at The Hair Studio in Dieppe, New Brunswick.
+              Lived-in blondes, dimensional colour and personalized hair services at The Hair Studio in New Brunswick.
             </p>
           </div>
 
@@ -131,7 +131,7 @@ export default function Footer() {
             <div className="space-y-1.5 text-[#30231F]/80 font-light leading-relaxed">
               <p className="font-medium text-[#30231F]">{BRAND_DATA.salon}</p>
               <p>
-                {BRAND_DATA.city}, {BRAND_DATA.province}, {BRAND_DATA.country}
+                {BRAND_DATA.province}, {BRAND_DATA.country}
               </p>
               <p className="text-[11px] text-[#817064] pt-1">
                 Salon phone:{" "}
